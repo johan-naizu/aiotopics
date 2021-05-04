@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: aiotopics
+Version: 0.1.0
+Summary: Async module to fetch random topics for conversation
+Home-page: https://github.com/johan-naizu/aiotopics
+Author: Johan Naizu
+Author-email: johan@naizu.in
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/johan-naizu/aiotopics/issues
+Description: ![aiotopics](https://i.imgur.com/1248yt1.png)
+        
+        # aiotopics
+        Fetch random topics to start conversations.
+        Ideal for discord and other social media bots.
+        
+        ![Downloads](https://pepy.tech/badge/aiotopics) ![PyPI](https://img.shields.io/pypi/v/aiotopics) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/aiotopics) ![PyPI - License](https://img.shields.io/pypi/l/aiotopics)
+        ## Installation
+        ```pip
+        pip install aiotopics
+        ```
+        ## Usage
+        ```python
+        import aiotopics
+        topic=await aiotopics.get_topic()
+        print(topic)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

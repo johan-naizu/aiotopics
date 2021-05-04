@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/aiotopics/__init__.py
+src/aiotopics/aiotopics.py
+src/aiotopics.egg-info/PKG-INFO
+src/aiotopics.egg-info/SOURCES.txt
+src/aiotopics.egg-info/dependency_links.txt
+src/aiotopics.egg-info/top_level.txt
